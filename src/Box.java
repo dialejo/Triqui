@@ -30,7 +30,7 @@ public class Box {
             simbolo = cTemp;
         else
             simbolo = Box.SIMBOLO_V;
-}
+        }
     /*
      * Metodo
      * Rrvisar si las box esta vacia
@@ -38,7 +38,7 @@ public class Box {
      */
     public boolean isEmpty() {
         return this.simbolo.trim().isEmpty();
-}
+        }
     /*
      * Metodo
      * evalua si el simbolo de la box es un parametro
@@ -48,6 +48,6 @@ public class Box {
     public boolean isEqual(String c) {
         String cTemp = c.trim().toUpperCase();
         return cTemp.equals(simbolo);
-}
+        }
 
 }
